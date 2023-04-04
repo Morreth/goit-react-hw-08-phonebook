@@ -15,11 +15,11 @@ import { Box } from '@mui/material';
         flexDirection: 'column',
       }}
     >
-      <SectionTitle title="Contacts manager welcome page">
+      <SectionTitle title="">
         {/* <span role="img" aria-label="Greeting icon">
           💁‍♀️
         </span> */}
-        <ContactPhoneTwoTone fontSize="large" htmlColor="#8458B3" />
+        <ContactPhoneTwoTone fontSize="large" htmlColor="#202020" />
       </SectionTitle>
     </Box>
   );

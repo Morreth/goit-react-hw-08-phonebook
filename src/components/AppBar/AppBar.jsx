@@ -12,7 +12,7 @@ const Appbar = () => {
         pt: '20px',
         pb: '20px',
         display: 'flex',
-        justifyContent: 'flex-end',
+        justifyContent: 'center',
       }}
       position="static"
     >
@@ -20,7 +20,7 @@ const Appbar = () => {
         <Box
           sx={{
             display: 'flex',
-            justifyContent: 'flex-end',
+            justifyContent: 'center',
           }}
         >
           {isLoggedIn ? <UserMenu /> : <AuthNav />}

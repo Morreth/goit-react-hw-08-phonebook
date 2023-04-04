@@ -7,7 +7,7 @@ const SectionTitle = ({ title, children }) => (
     <Typography
       variant="h4"
       gutterBottom
-      color="#494D5F"
+      color="#202020"
       sx={{ textAlign: 'center' }}
     >
       {title}
